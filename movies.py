@@ -43,3 +43,4 @@ for mov in all_top_movies:
     mov=str(mov)
     mov=mov.split(",")
     print(mov[1])
+cur.commit()
